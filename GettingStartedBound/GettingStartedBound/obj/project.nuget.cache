@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "91KA4hj6ulxJtLL9BrQvMTTLuhjO3wMHgknCrnuP9BaqhjEDDzJhQmepQ+baoPm81tA7BFinFcRdSvqSxi2tAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahek.aswani\\source\\repos\\GettingStartedBound\\GettingStartedBound\\GettingStartedBound\\GettingStartedBound.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.licensing\\19.2.0.51\\syncfusion.licensing.19.2.0.51.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.xamarin.core\\19.2.0.51\\syncfusion.xamarin.core.19.2.0.51.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.xamarin.datasource\\19.2.0.51\\syncfusion.xamarin.datasource.19.2.0.51.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\19.2.0.51\\syncfusion.xamarin.gridcommon.19.2.0.51.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.xamarin.sfbadgeview\\19.2.0.51\\syncfusion.xamarin.sfbadgeview.19.2.0.51.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.xamarin.sflistview\\19.2.0.51\\syncfusion.xamarin.sflistview.19.2.0.51.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\syncfusion.xamarin.sftreeview\\18.4.0.44\\syncfusion.xamarin.sftreeview.18.4.0.44.nupkg.sha512",
+    "C:\\Users\\mahek.aswani\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
+  ],
+  "logs": []
+}

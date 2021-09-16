@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GettingStartedBound.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:badge1="clr-namespace:Syncfusion.XForms.BadgeView;assembly=Syncfusion.SfBadgeView.XForms"
+    xmlns:local="clr-namespace:GettingStartedBound"
+    xmlns:sfl="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+    xmlns:syncfusion="clr-namespace:Syncfusion.XForms.TreeView;assembly=Syncfusion.SfTreeView.XForms">
+
+    <ContentPage.BindingContext>
+        <local:FileManagerViewModel x:Name="viewModel" />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <syncfusion:SfTreeView
+            x:Name="treeView"
+            AutoExpandMode="AllNodesExpanded"
+            ChildPropertyName="SubFiles"
+            ExpanderWidth="40"
+            Indentation="15"
+            ItemHeight="40"
+            ItemsSource="{Binding ImageNodeInfo}">
+            <syncfusion:SfTreeView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                x:Name="grid"
+                                BackgroundColor="Transparent"
+                                RowSpacing="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="1" />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" RowSpacing="0">
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Row="0" Padding="5,5,5,5">
+                                        <Image
+                                            HeightRequest="35"
+                                            HorizontalOptions="Center"
+                                            Source="{Binding ImageIcon}"
+                                            VerticalOptions="Center"
+                                            WidthRequest="35" />
+                                    </Grid>
+                                    <Grid
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        Padding="1,0,0,0"
+                                        RowSpacing="1"
+                                        VerticalOptions="Center">
+                                        <sfl:SfListView
+                                            x:Name="Tags_List"
+                                            Margin="2"
+                                            AutoFitMode="DynamicHeight"
+                                            BackgroundColor="Transparent"
+                                            HeightRequest="26"
+                                            HorizontalOptions="StartAndExpand"
+                                            InputTransparent="False"
+                                            IsScrollBarVisible="False"
+                                            IsScrollingEnabled="True"
+                                            IsVisible="true"
+                                            ItemSpacing="2,1,0,0"
+                                            ItemsSource="{Binding TagList}"
+                                            ListViewCachingStrategy="CreateNewTemplate"
+                                            Orientation="Horizontal"
+                                            QueryItemSize="Tags_List_QueryItemSize"
+                                            SelectionMode="None">
+                                            <sfl:SfListView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <badge1:SfBadgeView BadgeText="{Binding TagName}">
+                                                        <badge1:SfBadgeView.BadgeSettings>
+                                                            <badge1:BadgeSetting
+                                                                BackgroundColor="LightGray"
+                                                                BadgeAnimation="None"
+                                                                BadgeType="None"
+                                                                CornerRadius="18"
+                                                                FontAttributes="Bold"
+                                                                FontSize="10"
+                                                                Stroke="OrangeRed"
+                                                                StrokeWidth="1"
+                                                                TextColor="Red" />
+                                                        </badge1:SfBadgeView.BadgeSettings>
+
+
+                                                    </badge1:SfBadgeView>
+                                                </DataTemplate>
+                                            </sfl:SfListView.ItemTemplate>
+                                        </sfl:SfListView>
+                                    </Grid>
+                                </Grid>
+
+                                <StackLayout Grid.Row="1" HeightRequest="1" />
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </syncfusion:SfTreeView.ItemTemplate>
+        </syncfusion:SfTreeView>
+    </ContentPage.Content>
+
+</ContentPage>

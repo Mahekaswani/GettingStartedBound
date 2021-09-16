@@ -1,0 +1,12 @@
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\bin\Debug\netstandard2.0\GettingStartedBound.deps.json
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\bin\Debug\netstandard2.0\GettingStartedBound.dll
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\bin\Debug\netstandard2.0\GettingStartedBound.pdb
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\GettingStartedBound.csproj.AssemblyReference.cache
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\GettingStartedBound.AssemblyInfoInputs.cache
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\GettingStartedBound.AssemblyInfo.cs
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\GettingStartedBound.csproj.CoreCompileInputs.cache
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\GettingStartedBound.dll
+C:\Users\mahek.aswani\source\repos\GettingStartedBound\GettingStartedBound\GettingStartedBound\obj\Debug\netstandard2.0\GettingStartedBound.pdb
